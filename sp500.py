@@ -70,8 +70,8 @@ def user_input(df0):
     fig = sns.pairplot(df0, hue = option2)
     st.pyplot(fig)
   
-    st.write(categorical_fields)
-    st.write(numeric_fields)
+    #st.write(categorical_fields)
+    #st.write(numeric_fields)
     
 
 
